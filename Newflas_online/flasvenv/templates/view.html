@@ -1,0 +1,28 @@
+<!DOCTYPE html>  
+ <html>  
+ <head>  
+     <title>List</title>  
+ </head>  
+ <body>  
+ <h3>Student  Information</h3>   
+ <table border=5>  
+ <thead>  
+ 
+ <td>Name</td>  
+   
+ <td>email</td>  
+ </thead>  
+ {% for row in rows %}  
+ <tr>  
+  
+ <td>{{row["name"]}}</td>  
+  
+ <td>{{row["email"]}}</td>  
+ </tr>  
+ {% endfor %}   
+ </table>  
+ <br><br>  
+ <a href="/">Go back to home page</a> 
+ <a href="del">delete Employees</a>  
+ </body>  
+ </html>

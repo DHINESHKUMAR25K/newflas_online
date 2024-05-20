@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for("static", filename="css/style.css")}}">
+    <link rel="stylesheet" href="{{url_for("static", filename="bootstrap/bootstrap.min.css")}}">
+</head>
+<body>
+    <h1>welcomeeeeeee</h1>
+    
+   <form action="/addata" method="POST">
+    username <input type="text" name='name'><br>
+    
+    email <input type="text" name='email'><br>
+    <input type="submit">
+    
+   </form>
+</body>
+</html>
